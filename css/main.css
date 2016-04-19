@@ -1,0 +1,788 @@
+/*=============================
+======= Main  Structure =======
+=============================*/
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+}
+a, a:hover, a:focus, a:active, a.active {
+  outline: 0 none;
+  color: #008FAF;
+  cursor: pointer;
+}
+.title-link {
+  color: #323232;
+}
+.title-link a:hover{
+  color: #008FAF;
+}
+a:focus, a:hover {
+    color: #008FAF;
+    text-decoration: none;
+}
+li {
+  list-style: none;
+  letter-spacing: 1px;
+  color: #323232;
+}
+.smlogo {
+  padding-right: 20px;
+  margin-bottom: 10px;
+  height: 2.5em;
+}
+/*=============================
+==== Custom Navigation Bar ====
+=============================*/
+.navbar {
+  background-color: #fff;
+  border: none;
+}
+.nav-back {
+  background-color: #fff;
+}
+.navbar-header {
+  background-color: #fff;
+}
+.navbar-fixed-top .navbar-nav li a {
+  display: block;
+  float: left;
+  background-color: #fff;
+  color: #323232;
+  font-size: 1em;
+  padding: 5px;
+  padding-left: 15px;
+  letter-spacing: 0.6px;
+}
+.mob-nav-inline {
+  padding-left: 20px;
+}
+.navbar-fixed-top .navbar-nav li a:hover {
+  color: #008FAF;
+  background-color: #fff;
+}
+.navbar-fixed-top .navbar-toggle {
+  border: none;
+}
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background: #323232;
+  width: 35px;
+  margin: 7px;
+}
+.navigation {
+  background-color: #fff;
+}
+.navigation.scrolling {
+  background-color: #fff;
+}
+#bs-navbar-collapse {
+  background-color: #fff;
+}
+#navbar-padding {
+  padding: 0;
+}
+/*=============================
+==== Nav Bar icon ====
+=============================*/
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  transform: rotate(0);
+  -ms-transform: rotate(0);
+  /* IE 9 */
+  -webkit-transform: rotate(0);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(0);
+  /* Firefox */
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  transform: rotate(0);
+  -ms-transform: rotate(0);
+  /* IE 9 */
+  -webkit-transform: rotate(0);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(0);
+  /* Firefox */
+}
+.navbar-toggle .icon-bar {
+  transition: all 0.1s;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -ms-transform-origin: 10% 10%;
+  /* IE 9 */
+  -webkit-transform-origin: 10% 10%;
+  /* Chrome, Safari, Opera */
+  -moz-transform-origin: 10% 10%;
+  /* Firefox */
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  opacity: 0;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(-45deg);
+  /* Firefox */
+  -ms-transform-origin: 10% 90%;
+  /* IE 9 */
+  -webkit-transform-origin: 10% 90%;
+  /* Chrome, Safari, Opera */
+  -moz-transform-origin: 10% 90%;
+  /* Firefox */
+}
+/*=============================
+======= Header /bkg-img ========
+=============================*/
+header {
+  background-color: #000;
+  color: #323232;
+  background: url(../img/4d-new-range1a.png) no-repeat center;
+  min-height: 578px;
+  background-position: top;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.intro-text {
+  padding-top: 33%;
+  text-align: center;
+  margin: auto 0;
+  color:  #fff;
+}
+.intro-lead-in {
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 3.5em;
+  letter-spacing: 0.5em;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+.intro-heading h1 {
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin-top: 1%;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+/*=============================
+=========  About  ============
+=============================*/
+#about {
+  background-color: #fff;
+  padding: 0 1em 0 1em;
+  margin: 0 1em 3em 1em;
+}
+.about-right {
+  background: url(../img/bkg-img1a.jpg) left;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #323232;
+  padding: 50px;
+  height: 320px;
+}
+.about-left {
+  background-color: #ffffff;
+  
+}
+.about {
+  color: #323232;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.talk {
+  color: #f2f2f2;
+  font-size: 3em;
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+}
+.about-text {
+  color: #323232;
+  font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+.about-img {
+  padding-top: 25px;
+  margin: 0 auto;
+}
+/*=============================
+==== start-project CTA  =======
+=============================*/
+.startproject {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 1em 2em;
+  background-color: #008FAF;
+  border: 2px solid #008FAF;
+}
+.button3 {
+  margin-top: 10%;
+}
+.startproject:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #008FAF;
+}
+.startproject:focus, .startproject:active, .startproject.active:focus {
+  outline: 0 none;
+  color: #008FAF;
+}
+/*=============================
+=======view-work CTA =========
+=============================*/
+.view-work {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  background: #008FAF;
+  border: 2px solid #008FAF;
+  padding: 1em 2em;
+}
+.button4 {
+  margin-top: 10%;
+  padding: 0px;
+}
+.view-work:hover {
+  color: #fff;
+  background-color: #fff;
+  color: #008FAF;
+}
+.view-work:focus, .view-work:active, .view-work.active:focus {
+  outline: 0 none;
+  color: #fff;
+}
+/*=============================
+====section-contact-us CTA ====
+=============================*/
+#contact-us {
+  height: 300px;
+  background-color: #008FAF;
+  width: 100%;
+  margin-top: 0;
+}
+.section-contact-us h2 {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.section-contact-us h2 a {
+  text-decoration: none;
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  padding: 0.5em 2em;
+}
+.section-contact-us h2 a:hover {
+  color: #323232;
+  border: 2px solid #323232;
+}
+.section-contact-us:focus, .section-contact-us:active, .section-contact-us.active:focus {
+  outline: 0 none;
+  color: #fff;
+}
+/*=============================
+=========  Footer  ============
+=============================*/
+#footer {
+  background-color: #323232;
+  color: #fff;
+  width: 100%;
+  min-height: 5em;
+}
+.footer-section {
+  text-align: center;
+}
+.footer-heading {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer-para {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+.footer-get-in-touch {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #008FAF;
+  margin-bottom: 20px;
+}
+.footer-info {
+  padding: 0;
+  padding-bottom: 10px;
+}
+.footer-info a {
+  cursor: pointer;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 0.8em;
+}
+.footer-info a:hover {
+  cursor: pointer;
+  border: 2px solid #008FAF;
+  padding: 5px 10px;
+  color: #008FAF;
+  text-decoration: none;
+}
+.footer-info li {
+  list-style: none;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+.footer-our-services {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 0px;
+  color: #008FAF;
+}
+.footer-list {
+  padding: 0;
+  padding-bottom: 1em;
+}
+.footer-list li {
+  list-style: none;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-list a:hover {
+  text-decoration: none;
+  color: #008FAF;
+}
+/* mobile landscape layouts only */
+@media only screen and (min-device-width: 480px) and (orientation:landscape){
+/*=============================
+======= Header /bkg-img ========
+=============================*/
+header {
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+  background: url(../img/4d-new-range1a.png) no-repeat center;
+  -webkit-background-size: 100vw;
+  -moz-background-size: 100vw;
+  -o-background-size: 100vw;
+  background-size: 100vw;
+}
+.intro-text {
+  padding-top: 15%;
+}
+.intro-lead-in {
+  font-size: 3em;
+  letter-spacing: 0.2em;
+}
+/*=============================
+======= view CTA =========
+=============================*/
+.button3 {
+  margin-top: 5%;
+  padding: 0px;
+}
+}
+/* tablet portrait layouts only */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+/*=============================
+======= navigation ========
+=============================*/
+.navigation {
+  width: 768px;
+}
+.navbar {
+  background-color: #fff;
+  border: none;
+}
+.nav-back {
+  background-color: #fff;
+}
+.navigation {
+  background-color: #fff;
+  min-height: 70px;
+}
+.mob-nav-inline {
+  padding-left: 0px;
+}
+.navbar-nav li {
+  margin-top: 15px;
+  margin-right: 35px;
+}
+/*=============================
+======= Header /bkg-img ========
+=============================*/
+header {
+  background-color: #000;
+  color: #323232;
+  background: url(../img/4d-new-range1a.png) no-repeat center;
+  min-height: 578px;
+  background-position: top;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.intro-text {
+  padding-top: 25%;
+}
+.intro-lead-in {
+  font-size: 3.5em;
+  letter-spacing: 0.3em;
+}
+.intro-heading h1 {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  line-height: 0.3em;
+  margin-top: 2%;
+}
+/*=============================
+=========  About  ============
+=============================*/
+#about {
+  margin: 0 0 3em 0;
+}
+.about-right {
+  background-position: top;
+  padding: 2.5em 0.5em 1em 0.5em;
+  height: 53%;
+}
+.talk {
+  font-size: 4em;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+}
+.about-text {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+/*=============================
+====section-contact-us CTA ====
+=============================*/
+#contact-us {
+  height: 260px;
+}
+.section-contact-us h2 {
+  margin-top: 1.35em;
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.section-contact-us h2 a {
+  text-decoration: none;
+  margin-top: 2.3em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  padding: 0.5em 2em;
+}
+.break {
+  display: none;
+}
+.section-contact-us h2 a:hover {
+  color: #323232;
+  border: 2px solid #323232;
+}
+.section-contact-us:focus, .section-contact-us:active, .section-contact-us.active:focus {
+  outline: 0 none;
+  color: #fff;
+}
+/*=============================
+=========  Footer  ============
+=============================*/
+.footer-heading {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #008FAF;
+  text-align: left;
+  padding-bottom: 0.1em;
+}
+.footer-para {
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+.footer-get-in-touch {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #008FAF;
+  text-align: center;
+  padding-bottom: 0.1em;
+}
+.footer-info {
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.footer-info a {
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 0.7em;
+}
+.footer-info a:hover {
+  cursor: pointer;
+  border: 2px solid #008FAF;
+  padding: 5px 10px;
+  color: #008FAF;
+}
+.footer-info li {
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 1.3em;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+.footer-our-services {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  text-align: right;
+  padding-bottom: 0.1em;
+}
+.footer-list {
+  padding-bottom: 1em;
+}
+.footer-list li {
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+}
+/* tablet landscape layouts only */
+@media only screen and (min-device-width: 768px) and (min-device-height: 768px) and (orientation:landscape) {
+/*=============================
+==== Custom Navigation Bar ====
+=============================*/
+.navigation {
+  height: 5em;
+}
+.smlogo {
+  padding: 0 2px 0 20px;
+  height: 3.5em;
+}
+.navbar-brand {
+  padding: 0.3em;
+}
+.nav {
+  padding-top: 1.5em;
+}
+/*=============================
+======= Header /bkg-img ========
+=============================*/
+header {
+  background-color: #000;
+  color: #323232;
+  background: url(../img/4d-new-range1a.png) no-repeat center;
+  max-height: 478px;
+  background-position: top;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.intro-text {
+  padding-top: 15%;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.intro-lead-in {
+  font-size: 5em;
+  letter-spacing: 0.15em;
+  line-height: 1em
+}
+/*=============================
+=========  About  ============
+=============================*/
+#about {
+  margin: 0 0 3em 0;
+}
+.about-right {
+  background-position: top;
+  padding: 2.5em 0.5em 1em 0.5em;
+  height: 70%;
+}
+.talk {
+  font-size: 4em;
+  line-height: 1.3em;
+  letter-spacing: 1.5px;
+}
+.about-text {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+/*=============================
+====section-contact-us CTA ====
+=============================*/
+#contact-us {
+  height: 260px;
+}
+.section-contact-us h2 {
+  margin-top: 1.35em;
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+.section-contact-us h2 a {
+  text-decoration: none;
+  margin-top: 2.3em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  padding: 0.5em 2em;
+}
+.break {
+  display: none;
+}
+.section-contact-us h2 a:hover {
+  color: #323232;
+  border: 2px solid #323232;
+}
+.section-contact-us:focus, .section-contact-us:active, .section-contact-us.active:focus {
+  outline: 0 none;
+  color: #fff;
+}
+/*=============================
+=========  Footer  ============
+=============================*/
+.footer-heading {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #008FAF;
+  text-align: left;
+  padding-bottom: 0.1em;
+}
+.footer-para {
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+.footer-get-in-touch {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #008FAF;
+  text-align: center;
+  padding-bottom: 0.1em;
+}
+.footer-info {
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.footer-info a {
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 0.7em;
+}
+.footer-info a:hover {
+  cursor: pointer;
+  border: 2px solid #008FAF;
+  padding: 5px 10px;
+  color: #008FAF;
+}
+.footer-info li {
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 1.3em;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+.footer-our-services {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  text-align: right;
+  padding-bottom: 0.1em;
+}
+.footer-list {
+  padding-bottom: 1em;
+}
+.footer-list li {
+  letter-spacing: 0.1em;
+  text-align: right;
+}
+.bottom-smlogo {
+  padding-right: 20px;
+  margin-bottom: 10px;
+  height: 2.5em;
+}
+}
+/* Desktop layout */
+@media only screen and (min-device-width: 960px) and (min-device-height: 768px) {
+/*=============================
+======= Header /bkg-img ========
+=============================*/
+header {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  margin: auto 0;
+  color: #323232;
+  background: url(../img/4d-new-range1a.png) no-repeat center;
+  -webkit-background-size: 100vw;
+  -moz-background-size: 100vw;
+  -o-background-size: 100vw;
+  background-size: 100vw;
+}
+.intro-text {
+  padding-top: 15%;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.intro-lead-in {
+  font-size: 5em;
+  letter-spacing: 0.15em;
+  line-height: 1em
+}
+.button3 {
+  margin-top: 2%;
+  padding: 0px;
+}
+}
